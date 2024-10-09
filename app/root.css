@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+progress[value]::-webkit-progress-bar {
+  @apply bg-gray-50;
+}
+
+progress[value]::-moz-progress-bar,
+progress[value]::-webkit-progress-value {
+  @apply bg-blue-500;
+}
